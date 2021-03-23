@@ -1,20 +1,17 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
-const FirstApp = ( { saludo, subtitle } ) => {
-
-
-
+const FirstApp = ( { greeting, subtitle } ) => {
     return (        
         <>
-            <h1>{saludo}</h1>
+            <h1>{ greeting }</h1>
             <p>{ subtitle }</p>
         </>
     );
 }
 
 FirstApp.propTypes = {
-    saludo: PropTypes.string.isRequired
+    greeting: PropTypes.string.isRequired
 }
 
 FirstApp.defaultProps = {
