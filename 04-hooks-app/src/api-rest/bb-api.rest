@@ -1,0 +1,2 @@
+###
+GET https://www.breakingbadapi.com/api/quotes/1
