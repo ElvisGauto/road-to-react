@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 
-import '../02-useEffect/effects.css'
+import '../02-useEffect/effects.css';
 
 export const FocusScreen = () => {
 
