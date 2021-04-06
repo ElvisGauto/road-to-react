@@ -16,13 +16,15 @@ import ReactDom from 'react-dom';
 
 // import { Memorize } from './components/06-memos/Memorize';
 // import { MemoHook } from './components/06-memos/MemoHook';
-import { CallbackHook } from './components/06-memos/CallbackHook';
+// import { CallbackHook } from './components/06-memos/CallbackHook';
+
+import { TodoApp } from './components/08-useReducer/TodoApp';
 
 // import { MainApp }  from './components/09-useContext/MainApp';
 
 // import { HooksApp } from './HooksApp';
 
 ReactDom.render(
-    <CallbackHook />,
+    <TodoApp />,
     document.getElementById('root')
 );
